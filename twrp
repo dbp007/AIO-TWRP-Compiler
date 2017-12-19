@@ -48,7 +48,7 @@ read -p "Pls select (1 or 2) ? " repo
 if [[ $repo == [Bb] ]];then sleep .5;continue
 
 elif [[ $repo == 1 ]] || [[ $repo == 2 ]];then
-if curl --silent --head http://www.google.com  | grep k >/dev/null;then
+if curl --silent --head https://www.google.com  | grep k >/dev/null;then
 
 mkdir -p ~/Desktop/TWRP
 
